@@ -21,27 +21,24 @@
   <body>
     <div class="upper-page-padding">
       <div class="upper-page-container">
-        <header class="left-menu" style="width: 27%; height: 100%">
+        <header class="left-menu">
           <div class="header-border">
             <div class="left-up">
               <h1 class="logo">
-                <a href=""><img src="images/WhiteLogo.svg" alt="White logo" /></a>
+                <!-- Desktop Logo -->  
+                <a href="">
+                  <img src="images/WhiteLogo.svg" alt="Desktop logo" class="logo-desktop" />
+                </a>
+                <!-- Tablet/Mobile Logo -->
+                <a href="">
+                  <img src="images/WhiteLogo_SideBySide.svg" alt="Tablet/Mobile logo" class="logo-tablet-mobile" />
+                </a>
               </h1>
-              <h2
-                style="
-                  font-weight: 500;
-                  font-style: normal;
-                  font-size: 1.1rem;
-                  border: 3px solid #e5e5f7;
-                  border-radius: 1em;
-                  padding: 0.5em;
-                  display: inline-block;
-                "
-              >
-                <li>Aspiring Business Analyst</li>
+              <h2>
+                <li>Aspiring Tech & Business Professional</li>
               </h2>
               <nav>
-                <ul class="nav_links" style="margin-top: 3.5rem">
+                <ul class="nav_links">
                   <li><a class="navBtn" href="#About-Me">About</a></li>
                   <li><a class="navBtn" href="#Education">Education</a></li>
                   <li><a class="navBtn" href="#Work">Work</a></li>
@@ -85,67 +82,30 @@
                     </svg>
                   </a>
                 </li>
-                <li style="font-family: Poppins; font-size: 1em; color: #f2e9e4">
+                <li style="font-family: Poppins; font-size: 1em; color: #e5e5f7">
                   Feel free to contact me at LinkedIn or GitHub!
                 </li>
               </ul>
             </div>
           </div>
         </header>
-        <div class="Desc" style="width: 71%">
+        <div class="Desc" >
           <div class="Introduction">
             <div class="intro-section">
               <div class="intro-text">
-                <h1
-                  id="About-Me"
-                  style="
-                    font-weight: 700;
-                    font-style: normal;
-                    font-size: 2.5rem;
-                    text-align: center;
-                  "
-                >
-                  Hey, I'm
-                  <span
-                    style="
-                      color: #f2e9e4;
-                      background-color: #22223b;
-                      border-radius: 20px;
-                      padding: 10px 15px;
-                    "
-                    >Syafiqah</span
-                  >
-                  !
+                <h1 id="About-Me" class="intro-heading">
+                  <span class="heading-nowrap">
+                    Hey, I'm <span class="name-highlight">Syafiqah!</span>
+                  </span>
                 </h1>
-                <p
-                  style="
-                    font-weight: 500;
-                    font-style: normal;
-                    font-size: 1.2rem;
-                    text-align: center;
-                    margin-top: 1em;
-                  "
-                >
+                <p>
                   Infocomm & Media Engineering graduate from Nanyang Polytechnic with a
                   specialisation in Cloud Infrastructure & Services.<br />
-                  <div style="font-weight:600;font-style:normal;font-size: 1.3rem; text-align:center; color: #30305a; margin-top: 0.5rem;">Feel free to explore my portfolio to learn more about my education, work
+                  <div class="bolded">Feel free to explore my portfolio to learn more about my education, work
                   experience and projects!</div>
                 </p>
                 <button
-                  style="
-                    display: block;
-                    margin: 2em auto 0 auto;
-                    padding: 0.75em 1.5em;
-                    font-size: 1.1rem;
-                    font-weight: 500;
-                    color: #f2e9e4;
-                    background-color: #22223b;
-                    border: none;
-                    border-radius: 20px;
-                    cursor: pointer;
-                  "
-                  onclick="window.location.href = '#Projects'"
-                >
+                  onclick="window.location.href = '#Projects'">
                   View My Projects
                 </button>
               </div>

@@ -4,27 +4,22 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Syafiqah Rashid</title>
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
-    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
-      rel="stylesheet"
-    />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet"/>
     <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/basiclightbox@5/dist/basicLightbox.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"/>
   </head>
-
   <body>
     <div class="upper-page-padding">
       <div class="upper-page-container">
         <header class="left-menu">
           <div class="header-border">
             <div class="left-up">
-              <h1 class="logo">
+              <div class="left-up-border">
+                <h1 class="logo">
                 <!-- Desktop Logo -->  
                 <a href="">
                   <img src="images/WhiteLogo.svg" alt="Desktop logo" class="logo-desktop" />
@@ -35,41 +30,56 @@
                 </a>
               </h1>
               <h2>
-                <li>Aspiring Tech & Business Professional</li>
+                <li class="label">IT Graduate</li>
+                <li class="shortDesc">Bridging Technology and People</li>
               </h2>
+              </div>
+              <div class="border-bottom"></div>
               <nav>
                 <ul class="nav_links">
-                  <li><a class="navBtn" href="#About-Me">About</a></li>
-                  <li><a class="navBtn" href="#Education">Education</a></li>
-                  <li><a class="navBtn" href="#Work">Work</a></li>
-                  <li><a class="navBtn" href="#Projects">Projects</a></li>
+                  <li><a class="navBtn" href="#About-Me"><i class="fa-solid fa-house"></i>About</a></li>
+                  <li><a class="navBtn" href="#Education"><i class="fa-solid fa-graduation-cap"></i>Education</a></li>
+                  <li><a class="navBtn" href="#Work"><i class="fa-solid fa-briefcase"></i>Work</a></li>
+                  <li><a class="navBtn" href="#Projects"><i class="fa-solid fa-code"></i>Projects</a></li>
+                  <li><a class="navBtn" href="#Beyond-Academics"><i class="fa-solid fa-hand-holding-heart"></i>Volunteering</a></li>
+                  <li><a class="navBtn" href="#Contacts"><i class="fa-solid fa-envelope"></i>Contacts</a></li>
                 </ul>
               </nav>
-            </div>
+              <div class="border-bottom"></div>
+            
             <div class="left-down">
-              <ul>
-                <li>
-                  <a
-                    href="http://www.linkedin.com/in/siti-nur-syafiqah-rashid"
-                    target="_blank"
-                    class="icon"
-                  >
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      viewBox="0 0 24 24"
-                      fill="currentColor"
-                      class="h-6 w-6"
-                      aria-hidden="true"
-                    >
-                      <path
-                        d="M20.5 2h-17A1.5 1.5 0 002 3.5v17A1.5 1.5 0 003.5 22h17a1.5 1.5 0 001.5-1.5v-17A1.5 1.5 0 0020.5 2zM8 19H5v-9h3zM6.5 8.25A1.75 1.75 0 118.3 6.5a1.78 1.78 0 01-1.8 1.75zM19 19h-3v-4.74c0-1.42-.6-1.93-1.38-1.93A1.74 1.74 0 0013 14.19a.66.66 0 000 .14V19h-3v-9h2.9v1.3a3.11 3.11 0 012.7-1.4c1.55 0 3.36.86 3.36 3.66z"
-                      ></path>
-                    </svg>
-                  </a>
-                </li>
-                <li>
-                  <a href="https://github.com/sleepy-tiff" target="_blank" class="icon">
-                    <svg
+              <div style="font-family: Poppins; font-size: 1em; color: #e5e5f7; padding-left: 1em; margin-bottom: 0.5em;">
+                Let's connect!
+              <ul class="social-icons">
+  <li>
+    <a
+      href="http://www.linkedin.com/in/siti-nur-syafiqah-rashid"
+      target="_blank"
+      class="icon-btn"
+      aria-label="LinkedIn"
+    >
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 24 24"
+        fill="currentColor"
+        class="h-6 w-6"
+        aria-hidden="true"
+      >
+        <path
+          d="M20.5 2h-17A1.5 1.5 0 002 3.5v17A1.5 1.5 0 003.5 22h17a1.5 1.5 0 001.5-1.5v-17A1.5 1.5 0 0020.5 2zM8 19H5v-9h3zM6.5 8.25A1.75 1.75 0 118.3 6.5a1.78 1.78 0 01-1.8 1.75zM19 19h-3v-4.74c0-1.42-.6-1.93-1.38-1.93A1.74 1.74 0 0013 14.19a.66.66 0 000 .14V19h-3v-9h2.9v1.3a3.11 3.11 0 012.7-1.4c1.55 0 3.36.86 3.36 3.66z"
+          ></path>
+      </svg>
+    </a>
+  </li>
+
+  <li>
+    <a
+      href="https://github.com/sleepy-tiff"
+      target="_blank"
+      class="icon-btn"
+      aria-label="GitHub"
+    >
+      <svg
                       xmlns="http://www.w3.org/2000/svg"
                       viewBox="0 0 16 16"
                       fill="currentColor"
@@ -80,12 +90,9 @@
                         d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"
                       ></path>
                     </svg>
-                  </a>
-                </li>
-                <li style="font-family: Poppins; font-size: 1em; color: #e5e5f7">
-                  Feel free to contact me at LinkedIn or GitHub!
-                </li>
-              </ul>
+    </a>
+  </li>
+</ul>
             </div>
           </div>
         </header>
@@ -93,20 +100,29 @@
           <div class="Introduction">
             <div class="intro-section">
               <div class="intro-text">
-                <h1 id="About-Me" class="intro-heading">
-                  <span class="heading-nowrap">
-                    Hey, I'm <span class="name-highlight">Syafiqah!</span>
+                <div id="About-Me" class="intro-heading">
+                  <span class="heading-text">
+                    HEY I'M
                   </span>
-                </h1>
+
+                  <span class="name-highlight">
+                    Syafiqah<span class="period">.</span>
+                  </span>
+                </div>
                 <p>
-                  Infocomm & Media Engineering graduate from Nanyang Polytechnic with a
-                  specialisation in Cloud Infrastructure & Services.<br />
-                  <div class="bolded">Feel free to explore my portfolio to learn more about my education, work
-                  experience and projects!</div>
+                  <p>
+                  I'm an Information Technology graduate from Nanyang Polytechnic with a specialisation in <span class="highlight-blue">Cloud Infrastructure & Services</span>.</p>
+                  <p>
+                  I enjoy exploring how <span class="highlight-orange">technology</span>, <span class="highlight-orange">business</span>, and <span class="highlight-orange">people</span> can come together to create meaningful solutions.
+                  </p>
+                  <p>
+                  Through projects, internships, volunteering, and continuous learning, I hope to create technology that makes a <span class="highlight-orange">positive impact</span>.</p>
                 </p>
                 <button
                   onclick="window.location.href = '#Projects'">
-                  View My Projects
+                  <div class="button-items">
+                    View My Projects<i class="fa-solid fa-arrow-right"></i>
+                  </div>
                 </button>
               </div>
               <div class="intro-photo">
@@ -114,66 +130,158 @@
               </div>
             </div>
           </div>
-          <div id="Education" class="experience">
-            <!-- Education -->
-            <div class="experience-box">
-              <!-- Poly edu -->
+          <div id="Education" class="experience-first-header">
+            <section class="experience">
+            <div class="section-heading">
+              <h2>Education</h2>
+              <p>My academic journey and learning experiences.</p>
+            </div>
+
+            <div class="experience-box active">
               <div class="exp-flex">
-                <div class="exp-duration" style="font-size: 1rem">2023 - Present</div>
+                <div class="exp-duration">2023 — 2026</div>
+
                 <div class="exp-info">
-                  <header>Diploma in Infocomm & Media Engineering</header>
-                  <div>Nanyang Polytechnic</div>
-                  <ul>
-                    <li>Specializing in Cloud Infrastructure & Services</li>
-                  </ul>
+                  <h3>Diploma in Infocomm & Media Engineering</h3>
+                  <p class="exp-place">Nanyang Polytechnic</p>
+
+                  <p class="exp-desc">
+                    Specializing in Cloud Infrastructure & Services, with learning experience in cloud computing,
+                    networking, virtualization, and system infrastructure.
+                  </p>
+
+                  <div class="exp-tags">
+                    <span>Cloud Infrastructure</span>
+                    <span>Networking</span>
+                    <span>Virtualization</span>
+                    <span>AWS</span>
+                  </div>
                 </div>
               </div>
             </div>
             <div class="experience-box">
-              <!-- ITE Edu -->
-              <div class="exp-flex">
-                <div class="exp-duration" style="font-size: 1.1rem">2021 - 2023</div>
-                <div class="exp-info">
-                  <header>Higher Nitec in Cyber & Network Security</header>
-                  <div>Institute of Technical Education</div>
-                  <ul>
-                    <li>Graduated with a 3.0 GPA.</li>
-                    <li>Was the Publication Manager of ITE College West Student Council Club.</li>
-                    <li>
-                      Achieved multiple awards, including:
-                      <ul>
-                        <li>Equinix Book Prize</li>
-                        <li>Edusave Character Award</li>
-                        <li>Edusave Skills Award</li>
-                        <li>Edusave Merit Bursary</li>
-                        <li>Edusave Award for Achievement, Good Leadership and Service (EAGLES)</li>
-                      </ul>
-                    </li>
-                  </ul>
+            <div class="exp-flex">
+              <div class="exp-duration">2021 — 2023</div>
+
+              <div class="exp-info">
+                <h3>Higher Nitec in Cyber & Network Security</h3>
+                <p class="exp-place">Institute of Technical Education</p>
+
+                <p class="exp-desc">
+                  Built a foundation in cybersecurity and networking. Served as Publication Manager of the
+                  ITE College West Student Council Club and received multiple academic and leadership awards.
+                </p>
+
+                <div class="exp-tags">
+                  <span>Cybersecurity</span>
+                  <span>Network Security</span>
+                  <span>Student Council</span>
+                  <span>Leadership</span>
                 </div>
+                </div>
+               </div>
               </div>
-            </div>
+              <section class="edu-story">
+                  <div class="edu-gallery">
+                    <img class="edu-img-large" src="images/ITE/ClassPhoto.jpg" alt="ITE experience photo">
+                    <div class="edu-small-images">
+                      <img src="images/ITE/Extra.jpg" alt="ITE experience photo">
+                      <img src="images/ITE/GraduationPhoto.jpg" alt="ITE experience photo">
+                    </div>
+                  </div>
+
+                  <div class="edu-text">
+                    <p>
+                      During my time at ITE, I was actively involved in serving as the Publication Manager of the ITE College West Student Council Club. Through this role, I organized events with fellow student councillors and engaged with the student community while developing my leadership skills.<br />
+                      
+                      I was also honoured to receive several awards for my academic achievements and contribution.<br />
+                      
+                      These experiences sparked me to continue seeking opportunities for growth, both academically and personally, while building a well-rounded foundation for the field of technology.
+                    </p>
+                  </div>
+                </section>
+                <section class="edu-story">
+                  <div class="edu-text">
+                    <p>
+                      At Nanyang Polytechnic, I have been actively involved in various projects and activities
+                      related to cloud computing and cybersecurity. These experiences have allowed me to apply
+                      my knowledge in real-world scenarios and further develop my skills in these areas.
+                    </p>
+                  </div>
+                  <div class="edu-gallery">
+                    <img src="images/NYP/ScienceCentre.jpg" alt="NYP experience photo">
+                    <img src="images/NYP/BBQ.jpeg" alt="NYP experience photo">
+                    <img src="images/NYP/FirstClassPhoto.jpg" alt="NYP experience photo">
+                    <img src="images/NYP/FirstClassPhoto.jpg" alt="NYP experience photo">
+                  </div>
+
+                </section>
+              <section class="experience">
+                <div class="section-heading">
+                <h2>Beyond Academics</h2>
+                <p>Extracurricular activities and experiences outside the classroom.</p>
+                <p class="gallery-hint">Click any photo below to view it closer.</p>
+                <section class="edu-story">
+                  <div class="edu-gallery">
+                    <img src="images/NLB/FunPhoto.jpg" alt="NLBKids">
+                    <img src="images/NLB/2Sheeps.jpeg" alt="NLBKids">
+                    <img src="images/NLB/ReadingToKids.jpeg" alt="NLBKids">
+                    <img src="images/NLB/PhotoWithTheLadies.jpeg" alt="NLBKids">
+                  </div>
+                  <div class="edu-text">
+                    <p>
+                      After graduating from Nanyang Polytechnic, I wanted expand my horizons about community involvement and giving back to society. I have been actively volunteering at a nearby primary school, where I get to befriend with lower primary school students and encourage the joy of reading by reading storybooks to them. This experience has been incredibly rewarding, as it allows me to make a positive impact on the lives of young children and contribute to their love for learning.
+                    </p>
+                  </div>
+
+            </section>
+               </section>
           </div>
           <div id="Work" class="experience">
-            <!-- Work Experience -->
-            <div class="experience-box">
-              <div class="exp-flex">
-                <div class="exp-duration" style="font-size: 1rem">Oct 2022 - Feb 2023</div>
-                <div class="exp-info">
-                  <header>Salesperson (Intern)</header>
-                  <div>Dynacore Technologies Pte. Ltd.</div>
-                  <ul>
-                    <li>
-                      Engaged with clients and provide in-depth details of the Store's products.
-                    </li>
-                    <li>Quoted prices of custom PC builds for clients.</li>
-                    <li>Helped clients with technical questions over the phone and in-store.</li>
-                  </ul>
-                </div>
+            <section class="experience">
+              <div class="section-heading">
+                <h2>Work Experience</h2>
+                <p>My professional experience and contributions.</p>
+              </div>
+
+              <div class="experience-box active">
+                <div class="exp-flex">
+                  <div class="exp-duration" style="font-size: 1rem">Oct 2022 - Feb 2023</div>
+                  <div class="exp-info">
+                    <h3>Salesperson (Internship)</h3>
+                    <p class="exp-place">Dynacore Technologies Pte. Ltd.</p>
+                    <p class="exp-desc">
+                      Engaged with clients to provide in-depth details of the Store's products, quoted
+                      prices of custom PC builds, and assisted clients with technical questions over
+                      the phone and in-store.
+                  </div>
               </div>
             </div>
           </div>
           <div id="Projects" class="experience">
+            <section class="experience">
+              <div class="section-heading">
+                <h2>Projects</h2>
+                <p>Showcasing my hands-on projects and achievements.</p>
+                <p class="gallery-hint">Click any project image to enlarge it.</p>
+              </div>
+              <div class="experience-box active">
+                <!-- AWS Proj -->
+                <div class="exp-flex">
+                  <div class="proj-photo  ">
+                    <img src="images/AWSDiag.png" width="150" alt="AWS Diagram" />
+                  </div>
+                  <div class="proj-info">
+                    <h3>AWS Cloud Infrastructure Deployment</h3>
+                    <p class="proj-tools">Tools used: AWS EC2, VPC, EBS, Amazon Linux</p>
+                    <p class="proj-desc">
+                      Deployed an AWS cloud environment using AWS Services, creating an EC2 instance
+                      to run a PHP webserver and host a live webpage.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </section>
             <!-- Projects -->
             <div class="experience-box">
               <!-- AWS Proj -->
@@ -261,31 +369,9 @@
               </div>
             </div>
           </div>
-        </div>
       </div>
     </div>
-    <script>
-      document.addEventListener("DOMContentLoaded", function () {
-        var navLinks = document.querySelectorAll(".navBtn");
-
-        navLinks.forEach(function (link) {
-          link.addEventListener("click", function (e) {
-            navLinks.forEach(function (nav) {
-              nav.classList.remove("active");
-            });
-
-            this.classList.add("active");
-
-            var targetId = this.getAttribute("href").substring(1);
-            var targetSection = document.getElementById(targetId);
-
-            window.scrollTo({
-              top: targetSection.offsetTop - 60,
-              behavior: "smooth",
-            });
-          });
-        });
-      });
-    </script>
+    <script src="https://cdn.jsdelivr.net/npm/basiclightbox@5/dist/basicLightbox.min.js"></script>
+    <script src="script.js"></script>
   </body>
 </html>

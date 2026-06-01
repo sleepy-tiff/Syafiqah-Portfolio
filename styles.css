@@ -7,7 +7,7 @@
 
 body {
   background-color: #f2e9e4;
-  background-image: radial-gradient(#b9a6b6 1px, #ebe7e4 1px);
+  background-image: radial-gradient(#b9a6b6 1px, #f2e9e4 1px);
   background-size: 40px 40px;
   background-position:
     0 0,
@@ -152,6 +152,10 @@ body {
   border-radius: 20px;
   cursor: pointer;
 }
+.intro-text button:hover {
+  color: #22223b;
+  background-color: #7dcfb6;
+}
 .button-items {
   display: flex;
   align-items: center;
@@ -160,6 +164,8 @@ body {
 .intro-heading {
   font-size: clamp(2rem, 4vw, 2rem);
   font-weight: 700;
+  display: flex;
+  flex-direction: column;
 }
 
 .heading-nowrap {
@@ -180,7 +186,61 @@ body {
   color: #f79256;
   font-size: clamp(2.5rem, 6vw, 4rem);
 }
-
+.name-border-bottom {
+  border-bottom: 4px solid #64b29a;
+  width: 10%;
+}
+.border-bottom2 {
+  border-bottom: 4px solid #64b29a;
+  width: 5%;
+  margin-top: 0.5rem;
+}
+.Additional-Info {
+  padding: 1.8rem 0;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.12);
+  cursor: default;
+}
+.Awards {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+.award-card {
+  background-color: #f8f5f2;
+  color: #ef9f5a;
+  padding: 1rem;
+  border-radius: 15px;
+  flex: 1;
+  text-align: center;
+  transition: 0.2s ease;
+}
+.award-card:hover {
+  background-color: #ef9f5a;
+  color: #f8f5f2;
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+}
+.award-card i {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+.awards-bolded {
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: #22223b;
+}
+.awards-description {
+  font-size: 0.8rem;
+  color: #22223b;
+  margin-top: 0.5rem;
+  font-weight: 500;
+}
+.award-year {
+  font-size: 0.8rem;
+  font-weight: 700;
+  color: #4e9681;
+  margin-top: 0.5rem;
+}
 /*.bolded {
   font-weight: 600;
   font-style: normal;
@@ -190,12 +250,12 @@ body {
   margin-top: 0.5rem;
 }*/
 .highlight-blue {
-  color: #1b1b33;
-  font-weight: 510;
+  color: #22223b;
+  font-weight: 700;
 }
 .highlight-orange {
   color: #ef7833;
-  font-weight: 510;
+  font-weight: 700;
 }
 .upper-page-container {
   display: flex;
@@ -426,13 +486,27 @@ body {
   color: #22223b;
   font-size: 1rem;
 }
-
+.edu-header {
+  font-size: 1.7rem;
+  font-weight: 550;
+  color: #22223b;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.edu-text {
+  font-size: 0.9rem;
+}
 .edu-story {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 2.5rem;
-  align-items: center;
-  padding: 4rem 0;
+  padding: 2rem 0;
+  align-items: start;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.12);
+}
+.NYPStartIntro {
+  padding-bottom: 1.5rem;
   border-bottom: 1px solid rgba(0, 0, 0, 0.12);
 }
 
@@ -531,6 +605,28 @@ body {
   color: #22223b;
   font-weight: 500;
 }
+.edu-text ul {
+  list-style-type: none;
+  margin-top: 1rem;
+  color: #22223b;
+  font-weight: 500;
+}
+.edu-text ul li {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 0.75rem;
+  align-items: start;
+  margin-bottom: 0.5rem;
+}
+.edu-text li i {
+  color: #22223b;
+  font-size: 0.9rem;
+  margin-top: 0.2rem;
+}
+.highlight-blue-small {
+  color: #22223b;
+  font-weight: 600;
+}
 
 @media screen and (max-width: 768px) {
   .exp-flex {
@@ -558,15 +654,15 @@ body {
 }
 
 #About-Me {
-  scroll-margin-top: 13rem;
+  scroll-margin-top: 15rem;
 }
 
 #Education,
 #Work,
-#Projects {
+#Projects,
+#Volunteering {
   font-family: Poppins;
-  color: #f2e9e4;
-  scroll-margin-top: 5rem;
+  scroll-margin-top: 3rem;
 }
 
 .row {

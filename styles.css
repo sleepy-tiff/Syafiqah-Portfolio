@@ -521,6 +521,22 @@ body {
   align-items: start;
   border-bottom: 2px dashed rgba(0, 0, 0, 0.5);
 }
+.proj-info h3 {
+  margin: 0;
+  color: #64dfdf;
+  font-size: 1.2rem;
+}
+.proj-tools {
+  font-size: 0.95rem;
+  color: #8d99ae;
+  font-weight: 700;
+  margin: 0.3rem 0 1rem;
+}
+.proj-info p {
+  color: #a0a7c4;
+  line-height: 1.6;
+  margin: 1.2rem 0;
+}
 .volunteering-story {
   align-items: start;
 }
